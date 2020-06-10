@@ -19,7 +19,7 @@ img {
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(4, minmax(300px, 1fr));
-    grid-template-rows: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(50px, 1fr));
     grid-template-areas: 
     "header header header header"
     "image image image image"
@@ -165,20 +165,28 @@ sidebar
 
 .sidebar{
     grid-area: sidebar;
+    display: grid;
+    grid-template-rows: subgrid;
+    justify-items: center;
 }
 
 .myphoto{
     border-radius: 200px;
     width: 150px;
     height: 150px;
-    margin: 25px;
+    margin: 50px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 #description{
     text-align: right;
     width: 120px;
-    margin: 0 25px;
+    margin: 225px 25px;
+}
+
+.universepic{
+    width: 520px;
+    height: 341px;
 }
 
 /*
