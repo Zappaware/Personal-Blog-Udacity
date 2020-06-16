@@ -1,3 +1,6 @@
+@import "responsive.css";
+@import "normalize.css";
+
 html{ 
     font-size: 62.5%; /** RESET para REMS - 62-5% = 10 px de 16 px **/
 }
@@ -69,9 +72,7 @@ margin: 0;
     max-width: 800px;
 }
 
-/* 
-header
-*/
+/* header*/
 
 .mainheader{
     grid-area: header;
@@ -142,17 +143,13 @@ a:hover{
 .ham-icon {
    display: none;
 }
-/*
-image
-*/
+/*image*/
 
 .image{
     grid-area: image;
 }
 
-/*
-main
-*/
+/*main*/
 
 .content{
     grid-area: content;
@@ -161,9 +158,7 @@ main
     line-height: 1.5;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);}
 
-/*
-sidebar
-*/
+/*sidebar*/
 
 .sidebar{
     grid-area: sidebar;
@@ -191,9 +186,7 @@ sidebar
     height: 341px;
 }
 
-/*
-footer
-*/
+/*footer*/
 
 .footer{
     width: 100%;
