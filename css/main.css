@@ -1,5 +1,7 @@
-@import "responsive.css";
 @import "normalize.css";
+@import "header.css";
+@import "sidebar.css";
+@import "footer.css";
 
 html{ 
     font-size: 62.5%; /** RESET para REMS - 62-5% = 10 px de 16 px **/
@@ -72,6 +74,7 @@ margin: 0;
     max-width: 800px;
 }
 
+<<<<<<< HEAD
 /* header*/
 
 .mainheader{
@@ -258,3 +261,5 @@ a:hover{
     width: 180px;
     height: 150px;
 }
+=======
+>>>>>>> 0df6ce993819af92cb75d74c868c6c6450409c85

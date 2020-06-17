@@ -1,0 +1,29 @@
+/*
+sidebar
+*/
+
+.sidebar{
+    grid-area: sidebar;
+    display: grid;
+    grid-template-rows: subgrid;
+    justify-items: center;
+}
+
+.myphoto{
+    border-radius: 200px;
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#description{
+    text-align: right;
+    width: 120px;
+    margin: 225px 25px;
+}
+
+.universepic{
+    width: 520px;
+    height: 341px;
+}

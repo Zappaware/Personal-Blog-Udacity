@@ -1,0 +1,93 @@
+/* 
+header
+*/
+
+.mainheader{
+    grid-area: header;
+    display: grid;
+    grid-template-columns: minmax(160px, 150px);
+    grid-template-areas: "logonav logonav";
+}
+
+.navwrapper{
+    font-family: 'Bebas neue', cursive;
+    display: grid;
+    grid-column: 2 / -1;
+    grid-row: 1 / 2;
+    grid-template-columns: subgrid;
+    margin-top: auto;
+}
+
+.navigation{
+    width: 500px;
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    grid-area: nav;
+}
+
+a{
+    font-size: 3rem;
+    text-decoration: none;
+    color: #212121;    
+}
+a:hover{
+    text-decoration: underline;
+    color: #808080;
+
+}
+
+.header-logo{
+    width: 160px;
+    height: 150px;
+}
+
+.header-logo .nav-wrapper{
+    grid-area: logonav;
+}
+
+.socialmedia{
+    list-style: none;
+    grid-column: 3 / -1;
+    grid-row: 1 / 2;
+    grid-template-columns: subgrid;
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 0;
+}
+
+.mediawrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+.ham-icon {
+   display: none;
+}
+/*
+image
+*/
+
+.image{
+    grid-area: image;
+}
+
+/*
+main
+*/
+
+.content{
+    grid-area: content;
+    background-color: #ffffff;
+    padding: 50px;
+    line-height: 1.5;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);}
