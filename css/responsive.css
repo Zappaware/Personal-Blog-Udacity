@@ -1,13 +1,9 @@
 /*first media query*/
 
 @media only screen and (min-width: 460px) and (max-width: 675px) {
-<<<<<<< HEAD
 /* 
 header
 */
-=======
-/* header*/
->>>>>>> 8f0ba5448dc18dec99440ee91098180f35a20273
     .mainheader {
         display: block;
     }
