@@ -3,7 +3,7 @@ first media query
 */
 
 @media only screen and (min-width: 460px) and (max-width: 675px) {
-    /* 
+/* 
 header
 */
     .mainheader {
@@ -161,11 +161,17 @@ footer
     background-color: #ffffff;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     margin: 0;
     padding: 5px;
     font-family: 'Bebas neue', cursive;
     align-content: center;
+    }
+
+    .boxwrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
     }
     
     .box1 {
@@ -173,7 +179,8 @@ footer
     display: grid;
     grid-column: 1 / 2;
     grid-template-columns: subgrid;
-    margin: 0;
+    padding: 0%;
+    margin-top: 10px;
      }
      
      .box2 {
@@ -181,7 +188,9 @@ footer
     display: grid;
     grid-column: 1 / 2;
     grid-template-columns: subgrid;
-    margin: 0; 
+    padding: 0%;
+    margin-top: 10px;
+    margin-left: 150px;
     }
     
     .box3 {
@@ -190,6 +199,18 @@ footer
  
     .box4 {
     display: none;
+    }
+
+    .head2 {
+        margin-left: 150px;
+    }
+
+    .head3 {
+        display: none;
+    }
+    
+    .head4 {
+        display: none;
     }
 
     .wrapper {
