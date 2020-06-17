@@ -214,6 +214,11 @@ a:hover{
     align-content: center;
 }
 
+.boxwrapper {
+    display: block;
+    justify-content: center;
+}
+
 .box1{
     list-style: none;
     display: grid;
