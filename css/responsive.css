@@ -39,6 +39,11 @@ header
         padding: 15px;
         margin: 20px 60px;
     }
+
+    .universepic {
+        width: 220px;
+        height: 220px;
+    }
 /*sidebar*/
 
     .sidebar {
@@ -55,6 +60,7 @@ header
     .footerbox {
         display: none;
     }
+    
 
     .wrapper {
         display: grid;
@@ -119,6 +125,7 @@ header
         padding: 15px;
         margin: 30px 30px;
     }
+
 
 /*sidebar*/    
 
