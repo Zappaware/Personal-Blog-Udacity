@@ -12,16 +12,16 @@
 <body>
     <div class="wrapper">
     <header class="mainheader">
-        <a href="" target="_blank">
+        <a href="index.html" target="_blank"><!--This is the link to the home page-->
             <img class="header-logo" src="img/VWV-logo.png" alt="VWV-logo">
         </a>
         <div class="navwrapper">
             <h2>Software Development</h2>
             <nav class="navigation">
-                <a class="button" target="_blank" href="">About</a>
-                <a class="button" target="_blank" href="">Software</a>
-                <a class="button" target="_blank" href="blog.html">Blog</a>
-                <a class="button" target="_blank" href="">contact</a>
+                <a target="_blank" href="">About</a>
+                <a target="_blank" href="">Software</a>
+                <a target="_blank" href="blog.html">Blog</a><!--Fixed path-->
+                <a target="_blank" href="">contact</a>
             </nav>
         </div>
         <ul class="socialmedia mediawrapper">
@@ -72,30 +72,20 @@
                </i></small> 
             </p> 
         </div>
-    </aside><!--This is the sidebar, TODO: need to work here-->
+    </aside><!--This is the sidebar-->
 
     <main class="content justify-text">
-        <article class="section">
+        <article class="card section"><!--Right here we have the card class-->
             <h3 class=center-text>The center of the Software Universe!</h3>
             <figure>
                 <img class="universepic"src="img/universe.jpg" alt="universe-picture">
-                <figcaption>The universe of software is endless</figcaption>
+                <figcaption>The universe of software is endless</figcaption><!--This is the image caption-->
             </figure>
-            <p>Written: <span>06/31/2019</span></p> <p> By: <strong>Zappaware</strong></p>
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim natus expedita at. Nostrum, ipsam? Minus, facere? Facilis unde explicabo nulla et voluptas enim quis labore veritatis ad inventore! Neque, ducimus.
-                
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus lacus odio, ut congue mauris imperdiet nec. Aenean ac leo dignissim, sodales enim sit amet, elementum nisl. Nullam tincidunt enim a est accumsan, ac condimentum purus convallis. Donec ac tempus orci, nec porttitor ante. 
-            </p>
-        </article>
-
-        <article class="section">
-            <h3 class=center-text>Be more productive and more effcient</h3>
-            <div class="card">
-                <img class="thinker" src="img/thinker.jpg" alt="the-thinker-image">
-                <blockquote>"To do it so, it is to be doer and a thinker!</blockquote>
+            <div class="art-inf">
+                <a class="button navwrapper" href="/">READ</a><!--Also we have the button READ-->
+                <p>Written: <span>06/31/2019</span><br>By: <strong>Zappaware</strong></p>
             </div>
-            <p>Written: <span>06/31/2019</span></p> <p> By: <strong>Zappaware</strong></p>
+
             <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim natus expedita at. Nostrum, ipsam? Minus, facere? Facilis unde explicabo nulla et voluptas enim quis labore veritatis ad inventore! Neque, ducimus.
                 
@@ -103,9 +93,34 @@
             </p>
         </article>
 
-        <article class="section">
+        <article class="card section"><!--Right here we have the card class-->
+            <h3 class=center-text>Be more productive and more effcient</h3>
+            <div class="thinker">
+                <img src="img/thinker.jpg" alt="the-thinker-image">
+                <blockquote>
+                    <strong><i> "To do it so, it is to be doer and a thinker!</i></strong> 
+                    <br> Sergio Cervantes
+                </blockquote><!--Also right here we have the blockquote and a italic tag-->
+            </div>
+            <div class="art-inf">
+                <a class="button navwrapper" href="/">READ</a><!--Also we have the button READ-->
+                <p>Written: <span>06/31/2019</span><br>By: <strong>Zappaware</strong></p>
+            </div>
+            
+            <p>
+                <b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim natus expedita at. Nostrum, ipsam? Minus, facere? Facilis unde explicabo nulla et voluptas enim quis labore veritatis ad inventore! Neque, ducimus.</b><!--Right here we have the bold tag-->
+                
+                <u>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</u> Sed dapibus lacus odio, ut congue mauris imperdiet nec. Aenean ac leo dignissim, sodales enim sit amet, elementum nisl. Nullam tincidunt enim a est accumsan, ac condimentum purus convallis. Donec ac tempus orci, nec porttitor ante. <!--And here we have the underline tag at the begining of the paragraph-->
+            </p>
+        </article>
+
+        <article class="card section"><!--Right here we have the card class-->
             <h3 class=center-text>Look ma! I have my first job in Front End</h3>
-            <p>Written: <span>06/31/2019</span></p> <p> By: <strong>Zappaware</strong></p>
+            <div class="art-inf">
+                <a class="button navwrapper" href="/">READ</a><!--Also we have the button READ-->
+                <p>Written: <span>06/31/2019</span><br>By: <strong>Zappaware</strong></p>
+            </div>
+            
             <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim natus expedita at. Nostrum, ipsam? Minus, facere? Facilis unde explicabo nulla et voluptas enim quis labore veritatis ad inventore! Neque, ducimus.
                 
@@ -113,9 +128,13 @@
             </p>
         </article>
 
-        <article class="section">
+        <article class="card section"><!--Right here we have the card class-->
             <h3 class=center-text>The never ending procces of learning!</h3>
-            <p>Written: <span>06/31/2019</span></p> <p> By: <strong>Zappaware</strong></p>
+            <div class="art-inf">
+                <a class="button navwrapper" href="/">READ</a><!--Also we have the button READ-->
+                <p>Written: <span>06/31/2019</span><br>By: <strong>Zappaware</strong></p>
+            </div>
+            
             <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim natus expedita at. Nostrum, ipsam? Minus, facere? Facilis unde explicabo nulla et voluptas enim quis labore veritatis ad inventore! Neque, ducimus.
                 
@@ -125,6 +144,31 @@
     </main> <!--This is the main content-->
 
     <footer class="footer">
+        <ul id="footnav" class="socialmedia mediawrapper"><!--I added the social media in footer for the responsive part at 460px-->
+            <li>
+                <a href="https://www.facebook.com" target="_blank"><img class="icon" src="img/iconfinder_Facebook_194929.png" alt="Facebook">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com" target="_blank"><img class="icon" src="img/iconfinder_instagram_1218133.png" alt="Instagram">
+                </a>   
+            </li>
+            <li>
+                <a href="https://www.linkedin.com" target="_blank">
+                    <img class="icon" src="img/iconfinder_LinkedIn_194920.png" alt="Linkedin">
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com" target="_blank">
+                    <img class="icon" src="img/iconfinder_Twitter_194909.png" alt="Twitter">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.hotmail.com" target="_blank">
+                    <img class="icon" src="img/iconfinder_Mail_194919.png" alt="Mail">
+                </a>
+            </li>
+        </ul>
         <div class="footerbox">
             <div class="boxwrapper">
                 <h4 class="head1">About</h4>

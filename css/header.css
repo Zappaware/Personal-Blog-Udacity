@@ -80,14 +80,3 @@ image
 .image{
     grid-area: image;
 }
-
-/*
-main
-*/
-
-.content{
-    grid-area: content;
-    background-color: #ffffff;
-    padding: 50px;
-    line-height: 1.5;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);}
